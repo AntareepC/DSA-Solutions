@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+class Firstlast {
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[2];
         Arrays.fill(res, -1);
